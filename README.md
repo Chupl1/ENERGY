@@ -19,4 +19,5 @@ Les données proviennent de l'**ODRE** (Open Data Réseaux Énergies) et couvren
 ├── requirements.txt                 # Dépendances Python nécessaires au Cloud
 └── pages/
     ├── 1_Carte_Interactive.py       # Cartographie interactive des filières
+    ├── 2_Analyse_Mix.py             # Histogrammes des mix énergétiques
     └── 3_Analyses_Avancees.py       # Onglets TCO, TCH et Échanges physiques

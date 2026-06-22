@@ -10,7 +10,7 @@ st.subheader("Outil d'aide à la décision et d'analyse pour Business Analyst")
 # Chargement des données
 @st.cache_data
 def load_data():
-    df = pd.read_csv('eco2mix_regional_journalier.csv', sep=';', decimal='.', encoding='utf-8-sig')
+    df = pd.read_csv('mon_projet_streamlit/eco2mix_regional_journalier.csv', sep=';', decimal='.', encoding='utf-8-sig')
     df['Date'] = pd.to_datetime(df['Date'])
     df['Annee'] = df['Date'].dt.year
     df['Mois'] = df['Date'].dt.month

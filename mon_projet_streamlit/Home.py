@@ -212,7 +212,7 @@ with tab_filières:
         
         with col_img:
             # L'image est maintenant placée dans la première colonne (à gauche)
-            st.image("images/nucleaire.jpg", use_container_width=True)
+            st.image("mon_projet_streamlit/images/nucleaire.jpg", use_container_width=True)
             
         with col_texte:
             # Le texte s'affichera à droite, parfaitement aligné au milieu du bloc
@@ -245,7 +245,7 @@ with tab_filières:
         col_img, col_texte = st.columns([1, 2], vertical_alignment="center")
         
         with col_img:
-            st.image("images/eolien.jpg", use_container_width=True)
+            st.image("mon_projet_streamlit/images/eolien.jpg", use_container_width=True)
             
         with col_texte:
             st.markdown("**🌐 Fonctionnement :** Utilisation de la force cinétique du vent pour entraîner un rotor et activer un générateur électrique situé dans la nacelle au sommet du mât.")
@@ -276,7 +276,7 @@ with tab_filières:
         col_img, col_texte = st.columns([1, 2], vertical_alignment="center")
         
         with col_img:
-            st.image("images/solaire.jpg", use_container_width=True)
+            st.image("mon_projet_streamlit/images/solaire.jpg", use_container_width=True)
             
         with col_texte:
             st.markdown("**🌐 Fonctionnement :** Conversion directe des photons de la lumière en courant électrique via des cellules de silicium.")
@@ -306,7 +306,7 @@ with tab_filières:
             # --- PARTIE SUPÉRIEURE : IMAGE À GAUCHE & TEXTE CENTRÉ VERTICALEMENT ---
             col_img, col_texte = st.columns([1, 2], vertical_alignment="center")
             with col_img:
-                st.image("images/hydraulique.jpg", use_container_width=True)
+                st.image("mon_projet_streamlit/images/hydraulique.jpg", use_container_width=True)
             with col_texte:
                 st.markdown("**🌐 Fonctionnement :** Force de l'eau (barrages ou fil de l'eau) acheminée vers des conduites pour actionner des turbines.")
                 
@@ -335,7 +335,7 @@ with tab_filières:
         # --- PARTIE SUPÉRIEURE : IMAGE À GAUCHE & TEXTE CENTRÉ VERTICALEMENT ---
         col_img, col_texte = st.columns([1, 2], vertical_alignment="center")
         with col_img:
-            st.image("images/thermique.jpg", use_container_width=True)
+            st.image("mon_projet_streamlit/images/thermique.jpg", use_container_width=True)
         with col_texte:
             st.markdown("**🌐 Fonctionnement :** Combustion de gaz, charbon ou fioul pour produire une vapeur haute pression entraînant une turbine.")
             
@@ -363,7 +363,7 @@ with tab_filières:
         # --- PARTIE SUPÉRIEURE : IMAGE À GAUCHE & TEXTE CENTRÉ VERTICALEMENT ---
         col_img, col_texte = st.columns([1, 2], vertical_alignment="center")
         with col_img:
-            st.image("images/bioenergies.jpg", use_container_width=True)
+            st.image("mon_projet_streamlit/images/bioenergies.jpg", use_container_width=True)
         with col_texte:
             st.markdown("**🌐 Fonctionnement :** Valorisation de matières organiques (biomasse solide, incinération de déchets ou biogaz) par combustion.")
             

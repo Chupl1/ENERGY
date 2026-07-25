@@ -14,7 +14,7 @@ Les données proviennent de l'**ODRE** (Open Data Réseaux Énergies) et couvren
 
 ## 🚀 Structure du Projet
 ```text
-├── app.py                           # Page d'accueil (KPI nationaux globaux)
+├── Home.py                           # Page d'accueil (KPI nationaux globaux)
 ├── eco2mix_regional_journalier.csv  # Base de données nettoyée
 ├── requirements.txt                 # Dépendances Python nécessaires au Cloud
 └── pages/

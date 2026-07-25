@@ -14,10 +14,19 @@ Les données proviennent de l'**ODRE** (Open Data Réseaux Énergies) et couvren
 
 ## 🚀 Structure du Projet
 ```text
-├── Home.py                           # Page d'accueil (KPI nationaux globaux)
-├── eco2mix_regional_journalier.csv  # Base de données nettoyée
-├── requirements.txt                 # Dépendances Python nécessaires au Cloud
+├── Home.py                                                # Page d'accueil (KPI nationaux globaux)
+├── eco2mix_regional_journalier.csv                        # Base de données nettoyée - Production & Consommation d'énergie électrique en France
+├── rayonnement-solaire-vitesse-vent-regionaux_journalier  # Base de données nettoyée - Vitesse du vent à 100m & raynnement solaire
+├── requirements.txt                                       # Dépendances Python nécessaires au Cloud
 └── pages/
-    ├── 1_Carte_Interactive.py       # Cartographie interactive des filières
-    ├── 2_Analyse_Mix.py             # Histogrammes des mix énergétiques
-    └── 3_Analyses_Avancees.py       # Onglets TCO, TCH et Échanges physiques
+    ├── 1_Carte_Interactive.py                             # Cartographie interactive des filières
+    ├── 2_Analyse_Mix.py                                   # Histogrammes des mix énergétiques
+    └── 3_Analyses_Avancees.py                             # Onglets TCO, TCH et Échanges physiques
+└── images/
+    ├── bioenergies.jpg                                    # Image pour décrire la filière
+    ├── eolien.jpg                                         # Image pour décrire la filière
+    ├── hydraulique.jpg                                    # Image pour décrire la filière
+    ├── nucleaire.jpg                                      # Image pour décrire la filière
+    ├── solaire.jpg                                        # Image pour décrire la filière
+    └── thermique.jpg                                      # Image pour décrire la filière
+
